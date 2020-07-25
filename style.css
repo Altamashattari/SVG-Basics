@@ -1,0 +1,12 @@
+.my-shape{
+  fill: blue;
+}
+
+.my-shape{
+  transition: all 1.5s;
+}
+
+svg:hover .my-shape{
+  fill: cyan;
+  transform: scale(.9);
+}
